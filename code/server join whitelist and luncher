@@ -1,5 +1,17 @@
-/*
- * This file is part of the CitizenFX project - http://citizen.re/
+/*#server whitelist menu name in high postion code[2565]the name~~~\{KURDISTAN ROYAL CITY}
+ * fhead[11] = '\0';
+fhead[12] = '\0';
+fhead[13] = '\0';
+fhead[13] = '\0';
+HPEN hhi = CreatePen(0, 0, MAKE_PALETTERGB(crHighlight));
+HPEN hsh = CreatePen(0, 0, MAKE_PALETTERGB(crShadow));
+...
+if(fNormal)
+  hOld = SelectObject(hdc, hhi);
+else
+  hOld = SelectObject(hdc, hhi);
+...
+
  *
  * See LICENSE and MENTIONS in the root of the source tree for information
  * regarding licensing.
