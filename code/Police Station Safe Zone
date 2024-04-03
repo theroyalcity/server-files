@@ -1,0 +1,14 @@
+Config = {}
+Config.ShotsTokick = 2 - - Number of shots in safezone before player kicked
+Config.BanPeriod = 300 - - Player temporary ban period in seconds
+Config.Zones = {    - - Zones
+{
+id = "safezone", - - zone id (if zoneid equals to safezone no one can shoot in it or they will get a temporary ban)
+name = 'safezone ,    - - Zone Name
+cords = vector3(442.1825, -1002.5374, 30.7177), - - Zone Cords
+height = 250.0, - - Zone Height
+width = 250.0, - - Zone width
+color = 83, - - Zone color (Use Fivem blip color codes https://docs.fivem.net/docs/game-references/blips/#blip colors
+alpha = 75 - - Zone alpha
+},
+}
