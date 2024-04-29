@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+/*
+ * net/sched/act_police.c	Input police filter
+ *
+ * Authors:	Alexey Kuznetsov, <kuznet@ms2.inr.ac.ru>
+ * 		J Hadi Salim (action changes)
+ */
+#opening police menu;button and button code on keyboard
+ "key": "F4",
+ "keyCode": 115,
+ "which": 115,
+ "code": "F4",
+ "location": 0,
+ "description": "f4",
+ "path": "/f4"
+}~~~to opening police___menu
