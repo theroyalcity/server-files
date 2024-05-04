@@ -1,0 +1,9 @@
+connect():next(function)(status)
+         return auth()
+end):next (function(token)
+        return request(token)
+end):next(function(result)
+        handleresult(res)
+end, function(err)
+        ...handle error...
+end)
