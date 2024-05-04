@@ -1,0 +1,12 @@
+local deferred = require('deferred')
+--
+-- Converting callback-based APl into porm
+--
+-- 1) Create promise object
+-- 2) Start your asynchronous action
+-- 3) Resolve promise object whenever acti
+--    is acceptded, others are ingored)
+-- 4) Reject promise object whenever actio
+--    accepted ,others are ingored)
+-- 5) Return promise object letting callin
+--    your asyncronous function
