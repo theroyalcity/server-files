@@ -1,0 +1,11 @@
+deferred.all ({
+        hattp.get(' hattp://example.com/first
+        http.get('http://example.com/secon
+        http.get('http://example.com/third
+}):next(function(results)
+        -- handle results here (all reques
+        -- no errors)
+end, function(results)
+     -- handle errors here (all request
+     -- at least one error)
+end)
