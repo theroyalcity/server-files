@@ -1,0 +1,7 @@
+local items = {'a.txt', 'b.txt', 'c.txt'}
+-- Read 3 files, one by one
+deferred.map(items, read):next(function(fi
+        -- here files is an array of file
+end, function(err)
+        --handle reading error
+end)
