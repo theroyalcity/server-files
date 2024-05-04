@@ -10,3 +10,21 @@ local deferred = require('deferred')
 --    accepted ,others are ingored)
 -- 5) Return promise object letting callin
 --    your asyncronous function
+
+function read (f)
+         local d = deferred.new()
+         readasync(f,  function(contents, er
+                if err == nil then
+                         d:resolve(contents
+                else
+                         d:reject(err)
+                end
+        end) 
+        return d
+end
+
+-- You can now use read() like this:
+read ('files.txt contents: ' , s)
+end, function(err)
+        print(' Error ', err)
+end)
