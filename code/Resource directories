@@ -1,0 +1,11 @@
+server
+resources
+[category]
+[another]
+thing
+fxmanifest.lua
+resource-1
+fxmanifest.lua
+main
+txmanifest.lua
+
