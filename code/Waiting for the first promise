@@ -1,0 +1,17 @@
+-- returns a promise that gets rejected af
+function timeout(sec)
+         local d = deferred.new()
+         setttimeout(function()
+                  d: reject('Timeout')
+        end, sec)
+        return d
+end
+
+deferred.first({
+         read(somefile), -- resolves promis
+         timeout(5),
+}):next(function(result)
+        ...file was read successfully
+end, function(err)
+        ...either timeout or I/O error...
+end)
