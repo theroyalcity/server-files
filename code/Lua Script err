@@ -1,0 +1,10 @@
+connect(function(status, err)
+ if err then ....end
+auth(function(token, err )
+  if err then ... end
+  request(token, function(re
+           if err then ... en
+           handleresult(res)
+   end)
+  end)
+end)
