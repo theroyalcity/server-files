@@ -1,0 +1,8 @@
+-- getting
+RequestModel ('adder') 
+-- comparing 
+if GetEntityModel(vehicle) == 'buzzard' then
+print("Indeed, it's a Buzzard.")
+end
+-- printing
+print('a_m_y_skater_01')
