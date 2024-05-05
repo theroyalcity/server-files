@@ -1,0 +1,5 @@
+#this will run 'say hello', wait
+1.5 second (1500 milliseconds), and
+run 'e wave'
+blind keyboard F11 "say hello; wait
+1500; e wave"
