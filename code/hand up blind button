@@ -1,0 +1,31 @@
+local handsup = fales
+
+CreateThread(function()
+    while true do
+        Wait(0)
+
+        if handsUp then
+            TaskHandsUp(PlayerPedId(),250, PlayerPedId(),
+  -1, true)
+           end
+       end
+end
+
+RegisterCommand('+handsup', function()
+    handsup = true
+end, fales)
+
+RegisterKeyMapping('+handsup', 'Hands Up', 'keyboard', 'x')
+RegisterKeyMapping('say hi', 'Say hi', 'keyboard', 'o')
+
+{
+ "key": "X",
+ "keyCode": 88,
+ "which": 88,
+ "code": "KeyX",
+ "location": 0,
+ "altKey": false,
+ "ctrlKey": false,
+ "metaKey": false,
+ "shiftKey": false,
+ "repeat": false
