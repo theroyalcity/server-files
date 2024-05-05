@@ -6,3 +6,11 @@ print("Indeed, it's a Buzzard.")
 end
 -- printing
 print('a_m_y_skater_01')
+
+-- somewhere *once* during initialization
+DecorRegister ("Player_Vehicle", 3)
+
+-- on a vehicle 
+if DecorIsRegisteredAsType("Player_Vehicle", 3) then
+    DecorSetInt (vehicle, "Player_Vehicle", -1)
+end
