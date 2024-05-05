@@ -1,0 +1,16 @@
+// server-side code in my framework
+on ('myframework:jobRegistered', (job) => {
+     ExecuteCommand ('add_ace "job.$ {job}" " jobProbe.${job}"
+allow');
+});
+on('myframework:jobAssigned', (source, job) => {
+    ExecuteCommand('add_princiapl "player.$ {source}"
+});
+
+on('playerDrooped', () => {
+    const source =source;
+    for (const job of myfw.getPlayerJobs(source)) {
+         ExcuteCommand('remove_principal "player.${source}"
+"job.${job}"');
+     }
+});
