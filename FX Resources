@@ -1,0 +1,1 @@
+local fxdkMode = GetConvartInt('sv_fxdkMode', 0) == 1
