@@ -63,4 +63,18 @@ AddEventHandler('esx_jail:sentToJail', function(playerId, jailTime, quiet)
                               playersInJail[playerId] = {timeRemaining = jailTime, identifier = xPlayer.getIdentifier()}
 
                               if not quiet then
-                                      TriggerClientEvent('chat:addMessage', -1, {args = {_U('
+                                      TriggerClientEvent('chat:addMessage', -1, {args = {_U('judge'), _U('jailed_msg', xPlayer.getName(), ESX.Math.Round(jailTime / 60))}, color = {147, 196, 109}})
+                              end
+                        end)
+
+                  end
+            end
+end)
+
+function unjailPlayer(playerId)
+         local xPlayer = ESX.GetPlayerFromId(playerId)
+
+         if xPlayer then
+                 if playersInJail[playerId] then
+                          MySQL.Async.execute(
+
