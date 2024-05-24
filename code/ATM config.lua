@@ -10,3 +10,10 @@ Config.Banks = {
     {x = 1175.19, y = 2706.48 z = 38.09, h = 1.47},
     {x = 150.03, y = -1040.42, z = 29.37, h = 160.89},
     {x = 241.25, y = 224.63, z = 106.29, h = 342.93},
+    {x = 314.32, y = -278.75, z = 54.17, h = 160.59},
+	{x = -350.67, y = -49.52, z = 49.04, h = 161.15},
+	{x = -2963.08, y = 483.05, z = 15.70, h = 270.71},
+}
+
+Config.EnableVersionCheck = true --Prints in console if your resource is out of date
+Config.VersionCheckIntervalI = 60 -- in minutes, ingore if above is set to true
