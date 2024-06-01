@@ -63,5 +63,6 @@ Config.Blacklist = {
 -- Do you want the HUD removed from showing in blacklisted vehicles?
 Config.RemoveHUDForBlacklistedVehicle = true
 
+-- Class multipliers. if you want SUV
 
 
