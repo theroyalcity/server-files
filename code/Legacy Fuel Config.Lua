@@ -33,5 +33,35 @@ Config.Strings = {
     CancelFuelingPump = "Press ~ g~E ~w~ to cancel the fueling",
     CancelFuelingJerryCan = "Press ~ g~E ~w~to cancel the fueling",
     NotEnoughCash = "Not enough cash",
-    RefillJerryCan = "Press
+    RefillJerryCan = "Press ~g~E ~w~ to refill the jerry can for ",
+    NotEnoughCashJerryCan = "Not enough cash to refill jerry can",
+    JerryCanFull = "Jerry can is full",
+    TotalCost = "Cost",
+ }
+
+if not Config.UseESX then
+    Config.Strings.PurchaseJerryCan = "Press ~g~E ~w~to grab a jerry can"
+    Config.Strings.RefillJerryCan = "Press ~g~E ~w~ to refill the jerry can"
+end
+
+Config.PumpModels = {
+    [-2007231801] = true,
+    [1339433404] = true,
+    [1694452750] = true,
+    [1933174915] = true,
+    [-462817101] = true,
+    [-469694731] = true,
+    [-164877493] = true,
+}
+
+-- Blacklist certain vehicles. Use names or hashes. hattps://wiki.gtanet.work/index.php?title=Vehicle_Models
+Config.Blacklist = {
+    --"Camaro",
+    --276773164
+}
+
+-- Do you want the HUD removed from showing in blacklisted vehicles?
+Config.RemoveHUDForBlacklistedVehicle = true
+
+
 
