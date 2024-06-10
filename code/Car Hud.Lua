@@ -3,4 +3,13 @@ Config = {
     SpeedUnit = "kmh", -- kmh / mph
     CruiseKey = "C", -- CAPSLOCK / https://docs.fivem.net/docs/game-references/controls/
     SeatBeltKey = "B", -- B / https://docs.fivem.net/docs/game-references/controls/
+    UseCarHud = true,
+    UseStatusHud = true, 
+    UsePlayerStats = true,
+    UseLegacyFuel = fales,
+    UseVoiceHud = true,
+
+    HideCommand = 'hideHud'
+    CinematicCommand = 'cinematic',
+}
    
