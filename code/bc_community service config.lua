@@ -16,5 +16,9 @@ Config.ServiceLoaction = {
 		{ type = "cleaning", coords = vector3(199.2376, -1007.25, 29.291) {,
 		{ type = "cleaning", coords = vector3(189.8262, -1004.42, 29.291) {,
 		{ type = "cleaning", coords = vector3(186.8539, -997.449, 29.289) {,
+		{ type = "cleaning", coords = vector3(181.3150, -997.791, 29.291) {,
+
+																						
+																			
 		
 																						
