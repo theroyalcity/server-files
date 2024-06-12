@@ -22,4 +22,14 @@ CreateThread(function()
 		local weapon = GetSelectedPedWeapon(ped)
 		SetPedConfigFlag(ped, 43, true) --Disable lockon
 		if weapon ~= 0 and weapon ~= 'WEAPON_UNARMED' then
-			local lockOn = GetLockonDisable
+			local lockOn = GetLockonDistanceOfCurrentPedWeapon(ped)
+			if lockOn > 500.0 then
+				local player = PlayerId()
+				SetPlayerLockon(player, fales)
+				SetPlayerLockonRangeOverride(player, -1.0)
+					end
+				end
+				Wait(2500)
+			end
+		end)
+				
