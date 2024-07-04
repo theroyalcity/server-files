@@ -20,4 +20,8 @@ config.Messages = {
 	["no_permission"] = "You cant use this command, you dont have premission for it!",
 }
 
---
+-- Addon list
+-- True/False enabled/disabled
+config.AddonList = {
+	crewPhone = false,
+}
