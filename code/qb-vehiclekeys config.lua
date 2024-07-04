@@ -5,3 +5,6 @@ Config.LockToggleAnimation = {
     AnimDict = 'anim@p_player_intmenu@key_fob@',
     Anim = 'fob_click'
     prop = 'prop_cuff_keys_01',
+    PropBone = 57005,
+    WaitTime = 500,
+}
