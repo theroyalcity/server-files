@@ -1,0 +1,45 @@
+/setcoords: Teleport to specific coordinates.
+/setjob: Assign a job to a player.
+/car: Spawn a vehicle.
+/cardel or /dv: Delete a vehicle.
+/setaccountmoney: Set the money amount for a player’s account.
+/giveaccountmoney: Give a specified amount of money to a player.
+/bring: Teleport a player to your location.
+/goto: Teleport yourself to a player’s location.
+/giveitem: Give an item to a player.
+/giveweaponcomponent: Modify a weapon’s components.
+/clear: Clear the chat.
+/clearall: Clear the chat for all players.
+/showinventory: Check the inventory of a player.
+/clearinventory: Clear the inventory of a player.
+/clearloadout: Remove all weapons from a player.
+/setgroup: Assign a specific group to a player.
+/skin: Access the menu for changing player skins.
+/tpm: Teleport to the map waypoint.
+/freeze: Freeze or unfreeze a player’s movement.
+/kick: Remove a player from the server.
+/ban: Ban a player from the server.
+/unban: Unban a previously banned player.
+/setgroup: Assign a specific group to a player.
+/addgroup: Add a player to a particular group.
+/removegroup: Remove a player from a specific group.
+/announce: Send a server-wide announcement or message.
+/warn: Issue a warning to a player.
+/kickall: Kick all players from the server.
+/godmode: Enable or disable god mode for a player.
+/invincible: Make a player invincible or vulnerable.
+/sethealth: Set a player’s health to a specific value.
+/setarmor: Set a player’s armor level to a specified amount.
+/heal: Restore a player’s health to maximum.
+/repair: Repair the vehicle you are currently in.
+/revive: Revive a downed or dead player.
+/tpcoords: Teleport to specific coordinates.
+/tpmarker: Teleport to a map marker location.
+/reviveme: Revive yourself if you’re downed or dead.
+/noclip: Enable or disable the no-clip mode for flying through objects.
+/settime: Set the in-game time to a specified value.
+/weather: Change the weather in the game world.
+/debug: Enable or disable debugging mode.
+/shutdown: Shutdown or restart the server.
+/whitelist: Manage the server whitelist.
+/announcestaff: Send a server-wide announcement specifically to staff members.
