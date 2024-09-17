@@ -1,0 +1,23 @@
+local newTargets = {
+-1403128555,
+-6734242,
+}
+addNewTarget(newTargets, {
+    options = { -- You can add as many as you want
+         {
+            label = 'Option 1', -- The name will show on the ui list
+            icon = 'MdLanguage', -- The icon will show on the ui list (https://react-icons.github.io/react-icons/icons?name=md)
+            event = 'script:dowhatever', -- The client event that will be triggered when the user select the option
+            bone = 'wheel_rr' -- (Optional) Only works with vehicles. Render the option if you are pointing the bone.
+        }, 
+        {
+            label = 'Option 2', 
+            icon = 'MdLanguage', 
+            event = 'script:dowhatever', 
+        }, 
+    }, 
+    distance = 5.0, -- The max distance will show the options when pointing
+    enable = function(entity) -- Render the options if the function return true, really useful to check whatever you want.
+        return true
+    end 
+})
