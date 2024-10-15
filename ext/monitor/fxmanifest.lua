@@ -1,6 +1,10 @@
-fx_version 'adamant'
-game 'common'
+fx_version 'cerulean'
+game 'gta5'
 
-clr_disable_task_scheduler 'yes'
+author 'An awesome dude'
+description 'An awesome, but short, description'
+version '1.0.0'
 
-server_script 'server/**/publish/*.net.dll'
+resource_type 'gametype' { name = 'My awesome game type!' }
+
+client_script 'mymode_client.lua'
