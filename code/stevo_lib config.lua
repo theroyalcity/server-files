@@ -9,3 +9,7 @@ return {
     businesses = {
         logs = false, -- Can be 'discord' or 'oxlogs' Check the documentation for info on installing discord logs.
    },
+
+  skillsCommand = true,
+  skillsKeybind = true
+}
