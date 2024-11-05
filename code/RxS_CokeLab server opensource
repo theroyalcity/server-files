@@ -1,0 +1,12 @@
+--[[
+BY RX Scripts © rxscripts.xyz
+--]]
+
+-- Custom can buy check function u can integrate custom checks
+---@param playerId number Id/Source of the player
+---@param lab table Lab object
+---@return boolean, string? 
+function CanBuyLab(playerId, lab)
+    return true
+    -- return false, 'You cannot buy this lab because of..'
+end
