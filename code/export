@@ -1,4 +1,0 @@
-exports('SayHello' , function(srt)
- print('Hello, ' .. tostring(srt) .. '!')
- end)
-
