@@ -1,5 +1,8 @@
 Config = {}
 
+<<<<<<< HEAD
+
+=======
 Config.Core = "QBCore:GetObject"
 
 Config.Locale       				= 'en' 
@@ -27,3 +30,5 @@ Config.ServiceLocations = {
 	{ type = "gardening", coords = vector3(198.97, -1006.85, 29.29) },
 	{ type = "gardening", coords = vector3(201.47, -1004.37, 29.29) },
 }
+
+>>>>>>> a6f3f848f59ea08300f7ca2e4673acab6c4c755e
